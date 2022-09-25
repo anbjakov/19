@@ -1,6 +1,6 @@
 'use strict'
-function calc (initialValue=0){
-    let currentResult = initialValue
+function calc (){
+    let currentResult = 0
     return {
         set: (value)=>currentResult=value,
         add: (value)=>currentResult=currentResult+value,
